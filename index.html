@@ -30,14 +30,17 @@
     .edu, .exp, .proj, .skills {
       margin-left: 20px;
     }
-    .photo {
-      float: right;
-      margin-top: -90px;
-    }
-    img {
-      border-radius: 6px;
-      width: 120px;
-    }
+   .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.photo img {
+  border-radius: 6px;
+  width: 120px;
+}
+
     ul {
       margin: 0;
       padding-left: 20px;
@@ -46,15 +49,18 @@
 </head>
 <body>
 
-  <h1>Raj Choudhary</h1>
-  <div class="contact">
-    <p>📞 8516906143 | ✉️ rajjchoudhary3931@gmail.com</p>
+  <div class="header">
+  <div>
+    <h1>Raj Choudhary</h1>
+    <div class="contact">
+      <p>📞 8516906143 | ✉️ rajjchoudhary3931@gmail.com</p>
+    </div>
   </div>
-
   <div class="photo">
-    <!-- Add your image path in the src below -->
-    <img src="WhatsApp Image 2025-05-13 at 08.05.05_32bc2aba.jpg" alt="Profile Photo">
+    <img src="src/raj.jpg" alt="Profile Photo">
   </div>
+</div>
+
 
   <div class="section">
     <div class="section-title">EDUCATION</div>
