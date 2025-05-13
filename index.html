@@ -2,125 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raj Choudhary - Resume</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    .container {
-      width: 80%;
-      margin: 40px auto;
-      background: #fff;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 10px;
-    }
-    header {
-      background-color: #fcd401;
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
       padding: 20px;
-      border-radius: 10px 10px 0 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      line-height: 1.6;
     }
-    header h1 {
-      margin: 0;
+    h1 {
+      text-align: center;
     }
     .contact {
-      text-align: right;
+      text-align: center;
+      margin-bottom: 20px;
     }
     .section {
       margin-top: 30px;
     }
-    .section h2 {
-      border-bottom: 2px solid #333;
-      padding-bottom: 5px;
-      margin-bottom: 10px;
-    }
-    .skills, .languages, .hobbies {
-      display: flex;
-      gap: 40px;
-    }
-    .skills ul, .languages ul, .hobbies ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    .skills li, .languages li, .hobbies li {
-      margin-bottom: 8px;
-    }
-    .highlight {
+    .section-title {
       font-weight: bold;
+      border-bottom: 1px solid #000;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .edu, .exp, .proj, .skills {
+      margin-left: 20px;
+    }
+    .photo {
+      float: right;
+      margin-top: -90px;
+    }
+    img {
+      border-radius: 6px;
+      width: 120px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div>
-        <h1>RAJ CHOUDHARY</h1>
-        <div class="highlight">Software Developer</div>
-      </div>
-      <div class="contact">
-        <p>191, Nihalpur Mundi, Indore, 452012, India</p>
-        <p><a href="mailto:rajchoudhary3931@gmail.com">rajchoudhary3931@gmail.com</a></p>
-        <p>08516906143</p>
-      </div>
-    </header>
 
-    <div class="section">
-      <h2>Profile</h2>
-      <p>I’m an aspiring Software Engineer with a strong focus on Artificial Intelligence and Machine Learning, currently pursuing B.Tech from IPS Academy. Motivated by curiosity and impact, I constantly strive to learn new technologies and apply them creatively.</p>
-    </div>
-
-    <div class="section">
-      <h2>Education</h2>
-      <p><strong>Bachelor of Technology (B.Tech) in Computer Science</strong><br>
-      Specialization: Artificial Intelligence & Machine Learning<br>
-      IPS Academy, Indore<br>
-      Expected Graduation: October 2025</p>
-    </div>
-
-    <div class="section">
-      <h2>Skills</h2>
-      <div class="skills">
-        <ul>
-          <li>Python</li>
-          <li>SQL</li>
-          <li>Programming Fundamentals</li>
-        </ul>
-        <ul>
-          <li>Java</li>
-          <li>HTML</li>
-          <li>AI/ML Basics</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Languages</h2>
-      <div class="languages">
-        <ul>
-          <li>French</li>
-          <li>Japanese</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Hobbies</h2>
-      <div class="hobbies">
-        <ul>
-          <li>Yoga</li>
-          <li>Trekking</li>
-        </ul>
-      </div>
-    </div>
-
+  <h1>Raj Choudhary</h1>
+  <div class="contact">
+    <p>📞 8516906143 | ✉️ rajjchoudhary3931@gmail.com</p>
   </div>
+
+  <div class="photo">
+    <!-- Add your image path in the src below -->
+    <img src="" alt="Profile Photo">
+  </div>
+
+  <div class="section">
+    <div class="section-title">EDUCATION</div>
+    <div class="edu">
+      <p><b>IPS Academy - 7.77</b><br>
+      Bachelor of Technology - Computer Science and Engineering (AIML)<br>
+      Indore, MP | Oct 2022 – Running</p>
+
+      <p><b>Alpine Public School - 86%</b><br>
+      Senior Secondary High School Education<br>
+      Indore, MP | July 2020 – March 2022</p>
+
+      <p><b>Bharat Sagar Public School - 88%</b><br>
+      Secondary High School Education<br>
+      Indore, MP | Till Aug. 2020</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">EXPERIENCE</div>
+    <div class="exp">
+      <p><b>Java Intern</b><br>
+      Divergent Software Labs<br>
+      15 May 2024 – 29 June 2024<br>
+      IPS Academy, Indore</p>
+      <ul>
+        <li>Gained hands-on experience in software development life cycle</li>
+        <li>Collaborated with a team to debug and enhance web application functionality</li>
+        <li>Worked on a Restaurant Management System using Servlets and MySQL</li>
+        <li>Knowledge of MySQL for database management and query optimisation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">PROJECTS</div>
+    <div class="proj">
+      <p><b>Restaurant Management System</b>:<br>
+        The Restaurant Management System is a web-based application built using Java Servlets, HTML/CSS/JS, JDBC, and SQL to manage menu items, orders, and billing operations efficiently. It streamlines restaurant workflows by enabling staff to handle tasks like order placement, billing, and data storage through an interactive interface.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">TECHNICAL SKILLS</div>
+    <div class="skills">
+      <p><b>Languages:</b> Java, Python, C/C++, SQL, Servlet, R Programming</p>
+      <p><b>Developer Tools:</b> Visual Studio Code, Eclipse, GitHub, Power BI</p>
+    </div>
+  </div>
+
 </body>
 </html>
